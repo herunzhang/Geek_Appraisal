@@ -12,17 +12,17 @@ int main(int argc, char *argv[]) {
  printf("请输入右边界t2=");
  scanf("%lf",&t2);
  
- double n=0;
- printf("请输入运算到n步");
- scanf("%lf", &n);
- double h=0;
- h=(t2-t1)/n;
- printf("h=%f\n", h);
+ //double n=0;
+ //printf("请输入运算到n步");
+// scanf("%lf", &n);
+ double h=0.001;
+ //h=(t2-t1)/n;
+ //printf("h=%f\n", h);
  
  //输入初值 
- double y0=0;
- printf("请输入初值y（0）=");
- scanf("%lf",&y0);
+ double y0=1;
+ //printf("请输入初值y（0）=");
+ //scanf("%lf",&y0);
  
  //开始计算函数 
  
